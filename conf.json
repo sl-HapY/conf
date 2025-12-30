@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "update_url": "",
   "force_update": false,
-  "ad_html": "<div style='text-align:center;padding:20px'><H1 style="color: rgb(241, 25, 25);">اینترت آزاد برای همه، یا هیچ‌کس</H1><p></p></div>",
+  "ad_html": "<div style='text-align:center;padding:20px'><H1 style='color: rgb(241, 25, 25);'>اینترت آزاد برای همه، یا هیچ‌کس</H1><p></p></div>",
   "urls": [
     "https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub.txt#sub",
     "https://uciran.netlify.app/",
