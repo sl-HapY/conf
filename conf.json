@@ -1,0 +1,15 @@
+{
+  "version": "1.0.1",
+  "update_url": "https://github.com/yourrepo/vpn/releases/download/v1.0.1/salist-vpn.exe",
+  "force_update": false,
+  "ad_html": "<div style='text-align:center;padding:20px'><h3 style='color:#22c55e;margin-bottom:10px'>🎉 تبلیغ ویژه</h3><p style='margin-bottom:15px'>برای خرید سرویس VIP با <strong>50% تخفیف</strong> همین الان اقدام کنید!</p><a href='https://example.com' target='_blank' style='display:inline-block;background:#22c55e;color:white;padding:10px 24px;border-radius:8px;text-decoration:none;font-weight:600'>خرید سرویس</a></div>",
+  "urls": [
+    "https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub.txt#sub",
+    "https://uciran.netlify.app/",
+    "https://l.ucir.workers.dev/3",
+    "https://l.ucir.workers.dev/2",
+    "https://l.ucir.workers.dev/1",
+    "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/subs/sub1.txt",
+    "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/subs/sub2.txt"
+  ]
+}
