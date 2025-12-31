@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
-  "update_url": "",
-  "force_update": false,
+  "version": "1.0.1",
+  "update_url": "https://s34.picofile.com/d/8488910492/dc64638a-917a-4fc9-8d77-282a11b5bc3d/NikaRay.exe",
+  "force_update": true,
   "ad_html": "<div style='text-align:center;padding:20px'><pre style='color: rgb(241, 25, 25);'>اینترت آزاد برای همه، یا هیچ‌کس</pre></div>",
   "urls": [
     "https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub.txt#sub",
