@@ -4,11 +4,11 @@
   "force_update": true,
   "ad_html": "<div style='text-align:center;padding:20px'><pre style='color: rgb(241, 25, 25);'>اینترت آزاد برای همه، یا هیچ‌کس</pre></div>",
   "urls": [
-    "https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub.txt",
     "https://uciran.netlify.app/",
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt",
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/subs/sub1.txt",
     "https://l.ucir.workers.dev/1",
-    "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/subs/ss.txt"
+    "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/subs/ss.txt",
+    "https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub.txt"
   ]
 }
