@@ -2,7 +2,7 @@
   "version": "1.0.1",
   "update_url": "",
   "force_update": true,
-  "ad_html": "<div style='text-align:center;padding:20px'><pre style='color: rgb(241, 25, 25);'>❤️رهبر فداتون</pre></div>",
+  "ad_html": "<div style='text-align:center;padding:20px'><pre style='color: rgb(241, 25, 25);'>❤️رهبر فداتون</pre><p>کانفیگ های جدید و بهتر بزودی اضافه میشه</p></div>",
   "urls": [
     "https://uciran.netlify.app/",
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt",
