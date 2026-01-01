@@ -3,13 +3,11 @@
   "update_url": "https://github.com/sl-HapY/conf/releases/download/win/NikaRay.exe",
   "force_update": true,
     "ad_html": "<div style='text-align:center;padding:15px'><img src='https://raw.githubusercontent.com/sl-HapY/conf/refs/heads/main/main.png' style='max-width:100%;height:auto;border-radius:10px;display:block;margin:0 auto'><p style='color:#f11919;font-size:12px;margin-top:10px'>اینترنت آزاد برای همه، یا هیچکس</p></div>",
-    "urls": [
+    "urls":[
     "https://uciran.netlify.app/",
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt",
-    "https://uciran.netlify.app/",
     "https://l.ucir.workers.dev/3",
     "https://l.ucir.workers.dev/2",
-    "https://l.ucir.workers.dev/1",
     "https://l.ucir.workers.dev/1",
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/subs/ss.txt",
     "https://raw.githubusercontent.com/sl-HapY/conf/refs/heads/main/configs.txt",
