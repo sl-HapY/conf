@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Google Public DNS",
+    "country": "Global",
+    "primary": "8.8.8.8",
+    "secondary": "8.8.4.4"
+  },
+  {
+    "name": "Cloudflare",
+    "country": "Global",
+    "primary": "1.1.1.1",
+    "secondary": "1.0.0.1"
+  },
+  {
+    "name": "Quad9",
+    "country": "Global",
+    "primary": "9.9.9.9",
+    "secondary": "149.112.112.112"
+  },
+  {
+    "name": "OpenDNS",
+    "country": "Global",
+    "primary": "208.67.222.222",
+    "secondary": "208.67.220.220"
+  },
+  {
+    "name": "AdGuard DNS",
+    "country": "Global",
+    "primary": "94.140.14.14",
+    "secondary": "94.140.15.15"
+  },
+  {
+    "name": "CleanBrowsing",
+    "country": "Global",
+    "primary": "185.228.168.9",
+    "secondary": "185.228.169.9"
+  },
+  {
+    "name": "NextDNS",
+    "country": "Global",
+    "primary": "45.90.28.0",
+    "secondary": "45.90.30.0"
+  },
+  {
+    "name": "DNS.Watch",
+    "country": "Global",
+    "primary": "84.200.69.80",
+    "secondary": "84.200.70.40"
+  },
+  {
+    "name": "Comodo Secure DNS",
+    "country": "Global",
+    "primary": "8.26.56.26",
+    "secondary": "8.20.247.20"
+  },
+  {
+    "name": "Verisign",
+    "country": "Global",
+    "primary": "64.6.64.6",
+    "secondary": "64.6.65.6"
+  },
+
+  {
+    "name": "Level3",
+    "country": "USA",
+    "primary": "4.2.2.1",
+    "secondary": "4.2.2.2"
+  },
+  {
+    "name": "UltraDNS",
+    "country": "USA",
+    "primary": "156.154.70.1",
+    "secondary": "156.154.71.1"
+  },
+  {
+    "name": "Neustar",
+    "country": "USA",
+    "primary": "64.6.64.6",
+    "secondary": "64.6.65.6"
+  },
+
+  {
+    "name": "Yandex DNS",
+    "country": "Russia",
+    "primary": "77.88.8.8",
+    "secondary": "77.88.8.1"
+  },
+
+  {
+    "name": "Alibaba DNS",
+    "country": "China",
+    "primary": "223.5.5.5",
+    "secondary": "223.6.6.6"
+  },
+
+  {
+    "name": "Baidu DNS",
+    "country": "China",
+    "primary": "180.76.76.76",
+    "secondary": null
+  },
+
+  {
+    "name": "FreeDNS",
+    "country": "Global",
+    "primary": "37.235.1.174",
+    "secondary": "37.235.1.177"
+  },
+
+  {
+    "name": "Alternate DNS",
+    "country": "Global",
+    "primary": "76.76.19.19",
+    "secondary": "76.223.122.150"
+  },
+
+  {
+    "name": "UncensoredDNS",
+    "country": "Denmark",
+    "primary": "91.239.100.100",
+    "secondary": "89.233.43.71"
+  },
+
+  {
+    "name": "SafeDNS",
+    "country": "Global",
+    "primary": "195.46.39.39",
+    "secondary": "195.46.39.40"
+  },
+
+  {
+    "name": "OpenNIC",
+    "country": "Global",
+    "primary": "185.121.177.177",
+    "secondary": "169.239.202.202"
+  },
+
+  {
+    "name": "Shecan",
+    "country": "Iran",
+    "primary": "178.22.122.100",
+    "secondary": "185.51.200.2"
+  },
+  {
+    "name": "403.online",
+    "country": "Iran",
+    "primary": "10.202.10.202",
+    "secondary": "10.202.10.102"
+  },
+  {
+    "name": "Electro DNS",
+    "country": "Iran",
+    "primary": "78.157.42.100",
+    "secondary": "78.157.42.101"
+  },
+  {
+    "name": "Radar Game DNS",
+    "country": "Iran",
+    "primary": "10.202.10.10",
+    "secondary": "10.202.10.11"
+  },
+
+  {
+    "name": "ControlD",
+    "country": "Global",
+    "primary": "76.76.2.0",
+    "secondary": "76.76.10.0"
+  },
+  {
+    "name": "Mullvad DNS",
+    "country": "Sweden",
+    "primary": "194.242.2.2",
+    "secondary": null
+  },
+  {
+    "name": "LibreDNS",
+    "country": "Germany",
+    "primary": "116.203.115.192",
+    "secondary": null
+  },
+  {
+    "name": "CIRA Canadian Shield",
+    "country": "Canada",
+    "primary": "149.112.121.10",
+    "secondary": "149.112.122.10"
+  }
+]
