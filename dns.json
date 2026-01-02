@@ -1,499 +1,62 @@
 [
   {
-    "name": "Google",
-    "country": "Global",
-    "category": "Standard",
-    "primary": "8.8.8.8",
-    "secondary": "8.8.4.4"
-  },
-  {
     "name": "Cloudflare",
     "country": "Global",
-    "category": "Standard",
     "primary": "1.1.1.1",
     "secondary": "1.0.0.1"
   },
   {
-    "name": "Cloudflare Security",
+    "name": "Google",
     "country": "Global",
-    "category": "Security",
-    "primary": "1.1.1.2",
-    "secondary": "1.0.0.2"
-  },
-  {
-    "name": "Cloudflare Family",
-    "country": "Global",
-    "category": "Family",
-    "primary": "1.1.1.3",
-    "secondary": "1.0.0.3"
+    "primary": "8.8.8.8",
+    "secondary": "8.8.4.4"
   },
   {
     "name": "Quad9",
     "country": "Global",
-    "category": "Security",
     "primary": "9.9.9.9",
     "secondary": "149.112.112.112"
   },
   {
-    "name": "Quad9 Unsecured",
-    "country": "Global",
-    "category": "Standard",
-    "primary": "9.9.9.10",
-    "secondary": "149.112.112.10"
-  },
-  {
-    "name": "Quad9 ECS",
-    "country": "Global",
-    "category": "Standard",
-    "primary": "9.9.9.11",
-    "secondary": "149.112.112.11"
-  },
-  {
     "name": "OpenDNS",
     "country": "Global",
-    "category": "Standard",
     "primary": "208.67.222.222",
     "secondary": "208.67.220.220"
   },
   {
-    "name": "OpenDNS Family",
+    "name": "Level3",
     "country": "Global",
-    "category": "Family",
-    "primary": "208.67.222.123",
-    "secondary": "208.67.220.123"
+    "primary": "4.2.2.4",
+    "secondary": "4.2.2.2"
   },
   {
-    "name": "AdGuard",
+    "name": "Comodo Secure",
     "country": "Global",
-    "category": "Ads Blocking",
-    "primary": "94.140.14.14",
-    "secondary": "94.140.15.15"
-  },
-  {
-    "name": "AdGuard Family",
-    "country": "Global",
-    "category": "Family",
-    "primary": "94.140.14.15",
-    "secondary": "94.140.15.16"
-  },
-  {
-    "name": "AdGuard Unfiltered",
-    "country": "Global",
-    "category": "Standard",
-    "primary": "94.140.14.140",
-    "secondary": "94.140.14.141"
-  },
-  {
-    "name": "CleanBrowsing Security",
-    "country": "Global",
-    "category": "Security",
-    "primary": "185.228.168.9",
-    "secondary": "185.228.169.9"
-  },
-  {
-    "name": "CleanBrowsing Adult",
-    "country": "Global",
-    "category": "Family",
-    "primary": "185.228.168.10",
-    "secondary": "185.228.169.10"
-  },
-  {
-    "name": "CleanBrowsing Family",
-    "country": "Global",
-    "category": "Family",
-    "primary": "185.228.168.168",
-    "secondary": "185.228.169.168"
-  },
-  {
-    "name": "NextDNS",
-    "country": "Global",
-    "category": "Customizable",
-    "primary": "45.90.28.0",
-    "secondary": "45.90.30.0"
-  },
-  {
-    "name": "ControlD",
-    "country": "Global",
-    "category": "Standard",
-    "primary": "76.76.2.0",
-    "secondary": "76.76.10.0"
-  },
-  {
-    "name": "ControlD Security",
-    "country": "Global",
-    "category": "Security",
-    "primary": "76.76.2.1",
-    "secondary": "76.76.10.1"
-  },
-  {
-    "name": "DNS.Watch",
-    "country": "Germany",
-    "category": "Privacy",
-    "primary": "84.200.69.80",
-    "secondary": "84.200.70.40"
-  },
-  {
-    "name": "Comodo",
-    "country": "Global",
-    "category": "Security",
     "primary": "8.26.56.26",
     "secondary": "8.20.247.20"
   },
   {
     "name": "Verisign",
     "country": "Global",
-    "category": "Stability",
     "primary": "64.6.64.6",
     "secondary": "64.6.65.6"
   },
   {
-    "name": "Level3",
-    "country": "USA",
-    "category": "ISP/Backbone",
-    "primary": "4.2.2.1",
-    "secondary": "4.2.2.2"
-  },
-  {
-    "name": "Level3 Alternate",
-    "country": "USA",
-    "category": "ISP/Backbone",
-    "primary": "4.2.2.3",
-    "secondary": "4.2.2.4"
-  },
-  {
-    "name": "Neustar Reliability",
-    "country": "USA",
-    "category": "Enterprise",
-    "primary": "156.154.70.1",
-    "secondary": "156.154.71.1"
-  },
-  {
-    "name": "Neustar Security",
-    "country": "USA",
-    "category": "Security",
-    "primary": "156.154.70.2",
-    "secondary": "156.154.71.2"
-  },
-  {
-    "name": "Neustar Family",
-    "country": "USA",
-    "category": "Family",
-    "primary": "156.154.70.3",
-    "secondary": "156.154.71.3"
-  },
-  {
-    "name": "FreeDNS",
+    "name": "Control D",
     "country": "Global",
-    "category": "Open",
-    "primary": "37.235.1.174",
-    "secondary": "37.235.1.177"
+    "primary": "76.76.2.0",
+    "secondary": "76.76.10.0"
   },
   {
-    "name": "Alternate DNS",
+    "name": "AdGuard DNS",
     "country": "Global",
-    "category": "Ads Blocking",
-    "primary": "76.76.19.19",
-    "secondary": "76.223.122.150"
-  },
-  {
-    "name": "UncensoredDNS",
-    "country": "Denmark",
-    "category": "Privacy",
-    "primary": "91.239.100.100",
-    "secondary": "89.233.43.71"
-  },
-  {
-    "name": "Hurricane Electric",
-    "country": "USA",
-    "category": "ISP/Backbone",
-    "primary": "74.82.42.42",
-    "secondary": null
-  },
-  {
-    "name": "DNS.SB",
-    "country": "Germany/Global",
-    "category": "Privacy/No Logs",
-    "primary": "185.222.222.222",
-    "secondary": "45.11.45.11"
-  },
-  {
-    "name": "Mullvad",
-    "country": "Sweden",
-    "category": "Privacy",
-    "primary": "194.242.2.2",
-    "secondary": null
-  },
-  {
-    "name": "Mullvad AdBlock",
-    "country": "Sweden",
-    "category": "Ads Blocking",
-    "primary": "194.242.2.3",
-    "secondary": null
-  },
-  {
-    "name": "Yandex Basic",
-    "country": "Russia",
-    "category": "Standard",
-    "primary": "77.88.8.8",
-    "secondary": "77.88.8.1"
-  },
-  {
-    "name": "Yandex Safe",
-    "country": "Russia",
-    "category": "Security",
-    "primary": "77.88.8.88",
-    "secondary": "77.88.8.2"
-  },
-  {
-    "name": "Yandex Family",
-    "country": "Russia",
-    "category": "Family",
-    "primary": "77.88.8.7",
-    "secondary": "77.88.8.3"
-  },
-  {
-    "name": "Alibaba",
-    "country": "China",
-    "category": "Standard",
-    "primary": "223.5.5.5",
-    "secondary": "223.6.6.6"
-  },
-  {
-    "name": "Baidu",
-    "country": "China",
-    "category": "Standard",
-    "primary": "180.76.76.76",
-    "secondary": null
-  },
-  {
-    "name": "114 DNS",
-    "country": "China",
-    "category": "Standard",
-    "primary": "114.114.114.114",
-    "secondary": "114.114.115.115"
-  },
-  {
-    "name": "SafeDNS",
-    "country": "Global",
-    "category": "Family/Security",
-    "primary": "195.46.39.39",
-    "secondary": "195.46.39.40"
-  },
-  {
-    "name": "OpenNIC",
-    "country": "Global",
-    "category": "Decentralized",
-    "primary": "185.121.177.177",
-    "secondary": "169.239.202.202"
-  },
-  {
-    "name": "LibreDNS",
-    "country": "Germany",
-    "category": "Privacy",
-    "primary": "116.203.115.192",
-    "secondary": null
-  },
-  {
-    "name": "CIRA Private",
-    "country": "Canada",
-    "category": "Privacy",
-    "primary": "149.112.121.10",
-    "secondary": "149.112.122.10"
-  },
-  {
-    "name": "CIRA Security",
-    "country": "Canada",
-    "category": "Security",
-    "primary": "149.112.121.20",
-    "secondary": "149.112.122.20"
-  },
-  {
-    "name": "Oracle Dyn",
-    "country": "USA",
-    "category": "Enterprise",
-    "primary": "216.146.35.35",
-    "secondary": "216.146.36.36"
-  },
-  {
-    "name": "Freenom",
-    "country": "Netherlands",
-    "category": "Privacy",
-    "primary": "80.80.80.80",
-    "secondary": "80.80.81.81"
-  },
-  {
-    "name": "Digitalcourage",
-    "country": "Germany",
-    "category": "Privacy",
-    "primary": "46.182.19.48",
-    "secondary": null
-  },
-  {
-    "name": "DNS Forge",
-    "country": "Germany",
-    "category": "Ads Blocking/Privacy",
-    "primary": "176.9.93.198",
-    "secondary": "176.9.1.117"
-  },
-  {
-    "name": "Applied Privacy",
-    "country": "Austria",
-    "category": "Privacy",
-    "primary": "37.252.185.232",
-    "secondary": "93.104.213.82"
-  },
-  {
-    "name": "Restena",
-    "country": "Luxembourg",
-    "category": "Standard",
-    "primary": "158.64.1.29",
-    "secondary": "158.64.1.61"
-  },
-  {
-    "name": "CZ.NIC",
-    "country": "Czech Republic",
-    "category": "Privacy",
-    "primary": "193.17.47.1",
-    "secondary": "185.43.135.1"
-  },
-  {
-    "name": "GreenTeam",
-    "country": "Global",
-    "category": "Malware Blocking",
-    "primary": "81.218.119.11",
-    "secondary": "209.88.198.133"
-  },
-  {
-    "name": "SmartViper",
-    "country": "USA",
-    "category": "Standard",
-    "primary": "208.76.50.50",
-    "secondary": "208.76.51.51"
-  },
-  {
-    "name": "Fourth Estate",
-    "country": "USA",
-    "category": "Privacy",
-    "primary": "45.77.165.194",
-    "secondary": null
-  },
-  {
-    "name": "PuntCAT",
-    "country": "Spain (Catalonia)",
-    "category": "Privacy",
-    "primary": "109.69.8.51",
-    "secondary": null
-  },
-  {
-    "name": "FDN",
-    "country": "France",
-    "category": "Privacy",
-    "primary": "80.67.169.12",
-    "secondary": "80.67.169.40"
-  },
-  {
-    "name": "CCC",
-    "country": "Germany",
-    "category": "Privacy",
-    "primary": "213.73.91.35",
-    "secondary": null
-  },
-  {
-    "name": "FFMUC",
-    "country": "Germany",
-    "category": "Privacy",
-    "primary": "5.1.66.255",
-    "secondary": "185.150.99.255"
-  },
-  {
-    "name": "SafeSurfer",
-    "country": "New Zealand",
-    "category": "Family/Security",
-    "primary": "104.197.28.121",
-    "secondary": "104.155.237.225"
-  },
-  {
-    "name": "Strongarm",
-    "country": "USA",
-    "category": "Business Security",
-    "primary": "54.174.40.213",
-    "secondary": "52.3.100.184"
-  },
-  {
-    "name": "Tiscali",
-    "country": "Italy/UK",
-    "category": "ISP",
-    "primary": "213.205.32.10",
-    "secondary": "213.205.34.10"
-  },
-  {
-    "name": "AhadNS",
-    "country": "Global",
-    "category": "Ads Blocking",
-    "primary": "5.2.75.75",
-    "secondary": "45.142.212.44"
+    "primary": "94.140.14.14",
+    "secondary": "94.140.15.15"
   },
   {
     "name": "Shecan",
     "country": "Iran",
-    "category": "Anti-Sanction",
     "primary": "178.22.122.100",
     "secondary": "185.51.200.2"
-  },
-  {
-    "name": "Electro",
-    "country": "Iran",
-    "category": "Anti-Sanction/Game",
-    "primary": "78.157.42.100",
-    "secondary": "78.157.42.101"
-  },
-  {
-    "name": "403.online",
-    "country": "Iran",
-    "category": "Anti-Sanction/Dev",
-    "primary": "10.202.10.202",
-    "secondary": "10.202.10.102"
-  },
-  {
-    "name": "Radar Game",
-    "country": "Iran",
-    "category": "Gaming",
-    "primary": "10.202.10.10",
-    "secondary": "10.202.10.11"
-  },
-  {
-    "name": "Begzar",
-    "country": "Iran",
-    "category": "Anti-Sanction",
-    "primary": "185.55.226.26",
-    "secondary": "185.55.225.25"
-  },
-  {
-    "name": "HostIran",
-    "country": "Iran",
-    "category": "Local",
-    "primary": "172.29.0.100",
-    "secondary": "172.29.0.101"
-  },
-  {
-    "name": "Shatel",
-    "country": "Iran",
-    "category": "ISP/Local",
-    "primary": "85.15.1.14",
-    "secondary": "85.15.1.15"
-  },
-  {
-    "name": "Asiatech",
-    "country": "Iran",
-    "category": "ISP/Local",
-    "primary": "185.128.64.1",
-    "secondary": "185.128.64.2"
-  },
-  {
-    "name": "ParsOnline",
-    "country": "Iran",
-    "category": "ISP/Local",
-    "primary": "91.98.98.98",
-    "secondary": "91.99.99.99"
   }
 ]
