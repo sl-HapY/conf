@@ -1,9 +1,9 @@
-vless://1602a406-a38e-4211-bbdc-3f75c890303d@178.128.245.151:4655?security=none&type=tcp&encryption=none#@salistai_bot_1
+vless://77371595-b7aa-472a-9d61-e9731861af07@300.shecanmarket.com:8443?security=&encryption=none&host=head.shecanMarket.com%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#@salistai_bot_1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyYjE5NWQ5MTZjYjg0MDA3@185.163.1.90:11201#@salistai_bot_2
-vless://e343471a-aad3-40da-9dea-72cc8c7dce5f@69.84.182.108:443/?type=ws&encryption=none&flow=&host=pq-us4.globals-download.com&path=%2Fpq%2Fus4&security=tls&sni=pq-us4.globals-download.com&fp=chrome#@salistai_bot_3
-vless://1602a406-a38e-4211-bbdc-3f75c890303d@45.81.113.60:4656?security=&encryption=none&headerType=none&type=tcp#@salistai_bot_4
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNTM3YmEzZTRmNGNkYTBj@144.126.158.195:12053#@salistai_bot_5
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYTc2ZDZmMDljMjAzYTU5@198.244.149.86:26115?note=Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---#@salistai_bot_6
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphYjBiODFhNWJmZjdkZGVh@57.129.129.139:29183#@salistai_bot_3
+vless://e343471a-aad3-40da-9dea-72cc8c7dce5f@69.84.182.108:443/?type=ws&encryption=none&flow=&host=pq-us4.globals-download.com&path=%2Fpq%2Fus4&security=tls&sni=pq-us4.globals-download.com&fp=chrome#@salistai_bot_4
+vless://1602a406-a38e-4211-bbdc-3f75c890303d@45.81.113.60:4656?security=&encryption=none&headerType=none&type=tcp#@salistai_bot_5
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNTM3YmEzZTRmNGNkYTBj@144.126.158.195:12053#@salistai_bot_6
 vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@104.19.39.72:8880?path=%2F%3Fed%3D2560%26Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET&security=&encryption=none&host=sni.x86.de5.net&type=ws#@salistai_bot_7
 vless://4fc8707b-0c0d-494c-af35-024840f9a5b9@http.hexo-music.ir:2095?security=&encryption=none&host=zula.ir&headerType=http&type=tcp#@salistai_bot_8
 vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@141.11.203.238:2096?security=tls&type=ws&path=%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=sni.111000.cc.cd&sni=sni.111000.cc.cd&fp=chrome&encryption=none#@salistai_bot_9
