@@ -1,9 +1,9 @@
-vless://d03d8fc0-23ce-461a-97fa-2a7e0a66d8db@Evay_vpn.fast.hosting-ip.com:80?security=none&type=ws&path=%2F%3Fed%3D2052%3F%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn&host=norbert-team-free1.global.ssl.fastly.net&encryption=none#@salistai_bot_1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphYjBiODFhNWJmZjdkZGVh@57.129.129.139:29183#@salistai_bot_2
-vless://34b2c490-f7c3-4c01-8bb6-03d2939760b4@v2ngnet.gatesriver.ir:4488?mode=gun&security=&encryption=none&type=grpc&serviceName=@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet#@salistai_bot_3
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphN2Y4ZDg3MGMwY2EwNGJj@147.135.78.88:11201#@salistai_bot_4
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMTA1MmIwZTZjOTQ5NDgx@162.19.228.25:16014#@salistai_bot_5
-vless://8b31b301-5770-4b71-b1a9-8a9546e4fd12@pysrvip.glovesstore1.ir:3101?security=none&type=tcp#@salistai_bot_6
+vless://turboo-server@cdn.turbooserver.com:80?path=%2Fed%3D2056&security=none&encryption=none&host=jone-turboo-server.com&type=ws#@salistai_bot_1
+vless://d03d8fc0-23ce-461a-97fa-2a7e0a66d8db@Evay_vpn.fast.hosting-ip.com:80?security=none&type=ws&path=%2F%3Fed%3D2052%3F%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn&host=norbert-team-free1.global.ssl.fastly.net&encryption=none#@salistai_bot_2
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphYjBiODFhNWJmZjdkZGVh@57.129.129.139:29183#@salistai_bot_3
+vless://34b2c490-f7c3-4c01-8bb6-03d2939760b4@v2ngnet.gatesriver.ir:4488?mode=gun&security=&encryption=none&type=grpc&serviceName=@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet#@salistai_bot_4
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphN2Y4ZDg3MGMwY2EwNGJj@147.135.78.88:11201#@salistai_bot_5
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMTA1MmIwZTZjOTQ5NDgx@162.19.228.25:16014#@salistai_bot_6
 vless://TELEGRAM-CONFiGLiNE-122@151.101.169.242:80?path=%2Ftelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%3Fed%3D1024&security=none&encryption=none&host=nesfeseehab.global.ssl.fastly.net&type=ws#@salistai_bot_7
 vless://76271967-a60e-4125-d75a-d0edb65eed4e@167.82.92.0:80?path=%2F&security=none&encryption=none&host=civan.global.ssl.fastly.net&type=ws#@salistai_bot_8
 vless://77371595-b7aa-472a-9d61-e9731861af07@300.shecanmarket.com:8443?security=none&encryption=none&host=head.shecanMarket.com%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#@salistai_bot_9
