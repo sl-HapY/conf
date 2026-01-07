@@ -29,8 +29,8 @@ vless://7e58699f-1d5d-4f6b-b181-cb74f0ad9509@api.dark-coffe.com:2096?security=tl
 vless://7e58699f-1d5d-4f6b-b181-cb74f0ad9509@api.dark-coffe.com:8443?security=tls&sni=TjLwH7cTdH.sMaRtTeChZaAl.InFo&allowInsecure=1&type=ws&path=/&host=TjLwH7cTdH.sMaRtTeChZaAl.InFo&packetEncoding=xudp&encryption=none#@NikaaRay - 29
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplNzE2ZDdiYmFlNGJkZDE0@85.90.207.104:18794#@NikaaRay - 30
 hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@152.67.95.183:443?insecure=1&sni=www.apple.com#@NikaaRay - 31
-vless://telegram-turboo-server@server.ultra-irancell.com:80?security=&type=ws&path=/ed%3D2056&host=jone-turboo-server.com&encryption=none#@NikaaRay - 32
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMDJmYjYwZDVjZjQwMGM2@45.82.102.245:11201#@NikaaRay - 33
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@216.250.97.82:38388#@NikaaRay - 34
-ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=@109.201.152.181:443#@NikaaRay - 35
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplNzE2ZDdiYmFlNGJkZDE0@85.90.207.104:18793#@NikaaRay - 36
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMDJmYjYwZDVjZjQwMGM2@45.82.102.245:11201#@NikaaRay - 32
+ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=@109.201.152.181:443#@NikaaRay - 33
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplNzE2ZDdiYmFlNGJkZDE0@85.90.207.104:18793#@NikaaRay - 34
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@216.250.97.82:38388#@NikaaRay - 35
+vless://telegram-turboo-server@server.ultra-irancell.com:80?security=&type=ws&path=/ed%3D2056&host=jone-turboo-server.com&encryption=none#@NikaaRay - 36
