@@ -6,7 +6,7 @@
   "api_config_url": "https://api.salist.ir/api/configs",
   "api_upload_url": "https://api.salist.ir/api/upload",
   "urls":[
-    "https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml",
+    "https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/base64.txt",
     "https://uciran.netlify.app/",
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt",
     "https://l.ucir.workers.dev/3",
