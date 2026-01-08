@@ -18,5 +18,5 @@ vless://7e58699f-1d5d-4f6b-b181-cb74f0ad9509@5.10.214.0:2087?encryption=none&sec
 hysteria2://freehomesvpnchannel3@channel1.saghetalaie.homes:46914?security=tls&obfs=salamander&obfs-password=%26O%2328YB5qK%215t%23U&insecure=1&sni=www.google.com#@NikaaRay - 18
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.99.162:35000?sni=api.kermanshahi.org&insecure=0&allowInsecure=0&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi#@NikaaRay - 19
 vless://7b9fdcf7-3702-40f7-91a3-58801b885324@iran.zanbor.de:8066?security=none&type=tcp&encryption=none#@NikaaRay - 20
-vless://8cf4d179-a921-49e5-934c-dcacd276c620@appleidcenteral.ir:4005?security=none&type=http&path=%2F&host=appleidcenteral.ir&sni=appleidcenteral.ir#@NikaaRay - 21
-vless://IRAN@super.novanv.shop:8080?security=none&type=tcp&encryption=none#@NikaaRay - 22
+vless://IRAN@super.novanv.shop:8080?security=none&type=tcp&encryption=none#@NikaaRay - 21
+vless://8cf4d179-a921-49e5-934c-dcacd276c620@appleidcenteral.ir:4005?security=none&type=http&path=%2F&host=appleidcenteral.ir&sni=appleidcenteral.ir#@NikaaRay - 22
