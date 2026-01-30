@@ -6,7 +6,9 @@
   "api_config_url": "https://api.salist.ir/api/configs",
   "api_upload_url": "https://api.salist.ir/api/upload",
   "urls":[
-    "https://raw.githubusercontent.com/sl-HapY/conf/refs/heads/main/configs.txt",
-    "https://raw.githubusercontent.com/sl-HapY/conf/refs/heads/main/clean.txt"
+    "https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml",
+    "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt",
+    "https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub.txt#sub",
+    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/refs/heads/master/Eternity.txt"
   ]
 }
