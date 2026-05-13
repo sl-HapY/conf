@@ -1,4 +1,5 @@
-name: 🚀 Setup SlipGate VayDNS
+# .github/workflows/setup-slipgate.yml
+name: 🚀 Setup SlipGate VayDNS (No Secrets)
 
 on:
   workflow_dispatch:
@@ -7,7 +8,7 @@ on:
         description: 'دامنه برای تونل VayDNS'
         required: true
         type: string
-        default: 'v.example.com'
+        default: 'v.slgo.ir'
       tag:
         description: 'نام تونل'
         required: false
@@ -20,130 +21,82 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: 📥 Checkout repository
+      - name: 📥 Checkout
         uses: actions/checkout@v4
 
-      - name: 📋 Validate inputs
-        run: |
-          echo "🏷️ Tunnel tag: ${{ github.event.inputs.tag }}"
-          echo "🌐 Domain: ${{ github.event.inputs.domain }}"
-          if [[ ! "${{ github.event.inputs.domain }}" =~ ^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$ ]]; then
-            echo "❌ Invalid domain format"
-            exit 1
-          fi
-
-      - name: 🔑 Setup SSH connection
-        uses: appleboy/ssh-action@v1.2.2
+      - name: 🚀 اتصال و نصب روی سرور
         env:
+          # ⚠️ هشدار: اطلاعات سرور مستقیماً اینجا نوشته شده
+          SERVER_HOST: 31.15.18.179
+          SERVER_USER: root
+          SERVER_PASSWORD: HlpZsJkvYozk
           DOMAIN: ${{ github.event.inputs.domain }}
           TAG: ${{ github.event.inputs.tag }}
-        with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USER }}
-          password: ${{ secrets.SERVER_PASSWORD }}
-          port: 22
-          timeout: 30s
-          command_timeout: 10m
-          envs: DOMAIN,TAG
-          script: |
-            set -e
-            
-            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-            echo "🚀 شروع پروسه نصب اسلیپ‌گیت و VayDNS"
-            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-            
-            # ۱. آپدیت سیستم و نصب پیش‌نیازها
-            echo ""
-            echo "📦 [1/6] آپدیت سیستم و نصب پیش‌نیازها..."
-            export DEBIAN_FRONTEND=noninteractive
-            apt update -y
-            apt install -y curl wget ufw jq dnsutils
-            
-            # ۲. نصب اسلیپ‌گیت
-            echo ""
-            echo "📥 [2/6] دانلود و نصب اسلیپ‌گیت..."
-            curl -fsSL https://raw.githubusercontent.com/anonvector/slipgate/main/install.sh | bash
-            
-            # اطمینان از نصب موفق
-            if ! command -v slipgate &> /dev/null; then
-              echo "❌ نصب اسلیپ‌گیت ناموفق بود"
-              exit 1
-            fi
-            echo "✅ اسلیپ‌گیت ورژن $(slipgate --version | head -1) نصب شد"
-            
-            # ۳. کانفیگ فایروال
-            echo ""
-            echo "🔥 [3/6] تنظیم فایروال..."
-            ufw allow 22/tcp comment 'SSH'
-            ufw allow 53/udp comment 'VayDNS UDP'
-            ufw allow 443/tcp comment 'VayDNS HTTPS'
-            ufw allow 1080/tcp comment 'SOCKS5'
-            ufw --force enable
-            ufw status verbose
-            echo "✅ فایروال تنظیم شد"
-            
-            # ۴. ایجاد تونل VayDNS
-            echo ""
-            echo "🔄 [4/6] ساخت تونل VayDNS..."
-            
-            # چک کردن وجود تونل قبلی
-            if slipgate tunnel list | grep -q "^${TAG}"; then
-              echo "⚠️ تونل ${TAG} از قبل وجود داره. حذف میکنم..."
-              slipgate tunnel remove --tag "${TAG}" 2>/dev/null || true
-              sleep 2
-            fi
-            
-            # ساخت تونل جدید
-            slipgate tunnel add \
-              --transport vaydns \
-              --backend socks \
-              --tag "${TAG}" \
-              --domain "${DOMAIN}"
-            
-            echo "✅ تونل VayDNS با نام '${TAG}' برای دامنه '${DOMAIN}' ساخته شد"
-            
-            # ۵. تنظیمات پیشرفته
-            echo ""
-            echo "⚙️ [5/6] اعمال تنظیمات پیشرفته..."
-            slipgate tunnel edit --tag "${TAG}" \
-              --mtu 1232 \
-              --record-type txt \
-              --idle-timeout 10s \
-              --keep-alive 2s \
-              --clientid-size 2 \
-              --queue-size 512
-            
-            echo "✅ تنظیمات پیشرفته اعمال شد"
-            
-            # ۶. استارت تونل و گرفتن لینک اشتراک
-            echo ""
-            echo "▶️ [6/6] استارت تونل و تولید لینک اشتراک..."
-            slipgate tunnel start "${TAG}"
-            sleep 3
-            
-            echo ""
-            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-            echo "📊 وضعیت نهایی تونل:"
-            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-            slipgate tunnel status
-            
-            echo ""
-            echo "🔗 لینک اشتراک SlipNet:"
-            slipgate tunnel share "${TAG}"
-            
-            echo ""
-            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-            echo "🎉 عملیات با موفقیت به پایان رسید!"
-            echo "📝 می‌تونی با دستور زیر یوزر بسازی:"
-            echo "   slipgate users add"
-            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-
-      - name: 📝 Save tunnel info to summary
-        if: always()
         run: |
-          echo "### 🚀 SlipGate VayDNS Setup Complete!" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- **Domain:** \`${{ github.event.inputs.domain }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "- **Tag:** \`${{ github.event.inputs.tag }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "> 🌐 Check the job logs above for the share link" >> $GITHUB_STEP_SUMMARY
+          echo "🔌 اتصال به ${SERVER_HOST}..."
+
+          # نصب sshpass
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq sshpass
+
+          # اجرای کامل دستورات روی سرور
+          sshpass -p "${SERVER_PASSWORD}" ssh \
+            -o StrictHostKeyChecking=no \
+            -o UserKnownHostsFile=/dev/null \
+            ${SERVER_USER}@${SERVER_HOST} bash << 'ENDSSH'
+          set -e
+          
+          echo "==================================="
+          echo "🚀 شروع نصب اسلیپ‌گیت"
+          echo "==================================="
+          
+          # ۱. بروزرسانی سیستم
+          echo "[1/6] بروزرسانی..."
+          export DEBIAN_FRONTEND=noninteractive
+          apt-get update -qq
+          apt-get install -y -qq curl wget ufw jq dnsutils
+          
+          # ۲. نصب اسلیپ‌گیت
+          echo "[2/6] نصب اسلیپ‌گیت..."
+          curl -fsSL https://raw.githubusercontent.com/anonvector/slipgate/main/install.sh | bash
+          which slipgate
+          
+          # ۳. فایروال
+          echo "[3/6] تنظیم فایروال..."
+          ufw allow 22/tcp || true
+          ufw allow 53/udp || true
+          ufw allow 443/tcp || true
+          ufw allow 1080/tcp || true
+          ufw --force enable || true
+          
+          # ۴. ساخت تونل VayDNS
+          echo "[4/6] ساخت تونل..."
+          slipgate tunnel add \
+            --transport vaydns \
+            --backend socks \
+            --tag ${TAG} \
+            --domain ${DOMAIN}
+          
+          # ۵. تنظیمات پیشرفته
+          echo "[5/6] تنظیمات پیشرفته..."
+          slipgate tunnel edit --tag ${TAG} \
+            --mtu 1232 \
+            --record-type txt \
+            --idle-timeout 10s \
+            --keep-alive 2s
+          
+          # ۶. استارت تونل و نمایش لینک
+          echo "[6/6] استارت تونل..."
+          slipgate tunnel start ${TAG}
+          sleep 3
+          
+          echo ""
+          echo "==================================="
+          slipgate tunnel status
+          echo ""
+          echo "🔗 لینک اشتراک SlipNet:"
+          slipgate tunnel share ${TAG}
+          echo "==================================="
+          ENDSSH
+          
+          echo "✅ عملیات روی سرور کامل شد."
