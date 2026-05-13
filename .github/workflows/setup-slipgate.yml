@@ -1,5 +1,5 @@
 # .github/workflows/setup-slipgate.yml
-name: 🚀 Setup SlipGate VayDNS (No Secrets)
+name: 🚀 Setup SlipGate VayDNS (Robust)
 
 on:
   workflow_dispatch:
@@ -24,9 +24,20 @@ jobs:
       - name: 📥 Checkout
         uses: actions/checkout@v4
 
-      - name: 🚀 اتصال و نصب روی سرور
+      - name: 🌐 بررسی در دسترس بودن سرور
+        run: |
+          echo "🧪 تست ارتباط با 31.15.18.179 روی پورت 22..."
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq netcat-openbsd
+          if nc -zv -w5 31.15.18.179 22; then
+            echo "✅ سرور در دسترس است"
+          else
+            echo "❌ سرور پاسخ نمی‌دهد! لطفاً وضعیت VPS را بررسی کنید"
+            exit 1
+          fi
+
+      - name: 🚀 نصب و راه‌اندازی از طریق SSH
         env:
-          # ⚠️ هشدار: اطلاعات سرور مستقیماً اینجا نوشته شده
           SERVER_HOST: 31.15.18.179
           SERVER_USER: root
           SERVER_PASSWORD: HlpZsJkvYozk
@@ -34,12 +45,29 @@ jobs:
           TAG: ${{ github.event.inputs.tag }}
         run: |
           echo "🔌 اتصال به ${SERVER_HOST}..."
-
-          # نصب sshpass
-          sudo apt-get update -qq
           sudo apt-get install -y -qq sshpass
 
-          # اجرای کامل دستورات روی سرور
+          # تلاش برای اتصال و اجرای دستورات
+          sshpass -p "${SERVER_PASSWORD}" ssh \
+            -v \
+            -o StrictHostKeyChecking=no \
+            -o UserKnownHostsFile=/dev/null \
+            -o ConnectTimeout=10 \
+            ${SERVER_USER}@${SERVER_HOST} '
+          set -e
+          echo "connection ok"
+          '
+
+          echo "✅ اتصال SSH موفق بود"
+
+      - name: 📦 اجرای کامل اسکریپت نصب
+        env:
+          SERVER_HOST: 31.15.18.179
+          SERVER_USER: root
+          SERVER_PASSWORD: HlpZsJkvYozk
+          DOMAIN: ${{ github.event.inputs.domain }}
+          TAG: ${{ github.event.inputs.tag }}
+        run: |
           sshpass -p "${SERVER_PASSWORD}" ssh \
             -o StrictHostKeyChecking=no \
             -o UserKnownHostsFile=/dev/null \
@@ -50,7 +78,7 @@ jobs:
           echo "🚀 شروع نصب اسلیپ‌گیت"
           echo "==================================="
           
-          # ۱. بروزرسانی سیستم
+          # ۱. بروزرسانی
           echo "[1/6] بروزرسانی..."
           export DEBIAN_FRONTEND=noninteractive
           apt-get update -qq
@@ -69,8 +97,8 @@ jobs:
           ufw allow 1080/tcp || true
           ufw --force enable || true
           
-          # ۴. ساخت تونل VayDNS
-          echo "[4/6] ساخت تونل..."
+          # ۴. ساخت تونل
+          echo "[4/6] ساخت تونل VayDNS..."
           slipgate tunnel add \
             --transport vaydns \
             --backend socks \
@@ -85,7 +113,7 @@ jobs:
             --idle-timeout 10s \
             --keep-alive 2s
           
-          # ۶. استارت تونل و نمایش لینک
+          # ۶. استارت و نمایش لینک
           echo "[6/6] استارت تونل..."
           slipgate tunnel start ${TAG}
           sleep 3
@@ -98,5 +126,3 @@ jobs:
           slipgate tunnel share ${TAG}
           echo "==================================="
           ENDSSH
-          
-          echo "✅ عملیات روی سرور کامل شد."
