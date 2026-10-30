@@ -2,13 +2,12 @@
   "version": "1.0.11",
   "update_url": "https://github.com/sl-HapY/conf/releases/download/win/NikaRay.exe",
   "force_update": true,
-  "ad_html": "<div style='text-align:center;padding:20px'><pre style='color: rgb(241, 25, 25);'>اینترنت آزاد برای همه، یا هیچکس</pre></div>",
+  "ad_html": "<div style='text-align:center;padding:20px'><pre style='color: rgb(68, 147, 248);'>اینترنت آزاد برای همه، یا هیچکس</pre></div>",
   "api_config_url": "https://api.salist.ir/api/configs",
   "api_upload_url": "https://api.salist.ir/api/upload",
   "urls":[
     "https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml",
-    "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt",
-    "https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub.txt#sub",
-    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/refs/heads/master/Eternity.txt"
+    "https://hapysub.mhan.workers.dev/",
+    "https://raw.githubusercontent.com/sinavm/SVM/main/lite/subscriptions/xray/normal/alive-stable"
   ]
 }
